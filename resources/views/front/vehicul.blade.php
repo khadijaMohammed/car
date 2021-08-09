@@ -15,6 +15,60 @@
             </div>
         </div><!-- inner Head -->
 
+
+        <div id="rev_slider-wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1">
+              <div class="tp-banner-container">
+                  <div class="tp-banner">
+                      <ul>
+                          <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on" data-title="Ken Burns Slide">
+                              <!-- MAIN IMAGE -->
+                              <img src="{{asset('front/img/one-car/4.jpg')}}" alt="2" data-lazyload="{{asset('front/img/one-car/4.jpg')}}" data-bgposition="right top" data-kenburns="off" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                              <div class="tp-caption tentered_white_huge lft tp-resizeme" data-endspeed="300" data-easing="Power4.easeOut" data-start="400" data-speed="600" data-y="130" data-hoffset="0" data-x="center" style="">
+                                
+                              </div>
+                          </li>
+
+                          
+                          <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on" data-title="Ken Burns Slide">
+                              <!-- MAIN IMAGE -->
+                              <img src="{{asset('front/img/one-car/3.jpg')}}" alt="2" data-lazyload="{{asset('front/img/one-car/3.jpg')}}" data-bgposition="right top" data-kenburns="off" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                              <div class="tp-caption tentered_white_huge lft tp-resizeme" data-endspeed="300" data-easing="Power4.easeOut" data-start="400" data-speed="600" data-y="130" data-hoffset="0" data-x="center" style="">
+
+                              </div>
+                          </li>
+
+                          <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on" data-title="Ken Burns Slide">
+                              <!-- MAIN IMAGE -->
+                              <img src="{{asset('front/img/one-car/2.jpg')}}" alt="2" data-lazyload="{{asset('front/img/one-car/2.jpg')}}" data-bgposition="right top" data-kenburns="off" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                              <div class="tp-caption tentered_white_huge lft tp-resizeme" data-endspeed="300" data-easing="Power4.easeOut" data-start="400" data-speed="600" data-y="130" data-hoffset="0" data-x="center" style="">
+
+                              </div>
+                          </li>
+
+                          <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on" data-title="Ken Burns Slide">
+                              <!-- MAIN IMAGE -->
+                              <img src="{{asset('front/img/one-car/1.jpg')}}" alt="2" data-lazyload="{{asset('front/img/one-car/1.jpg')}}" data-bgposition="right top" data-kenburns="off" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                              <div class="tp-caption tentered_white_huge lft tp-resizeme" data-endspeed="300" data-easing="Power4.easeOut" data-start="400" data-speed="600" data-y="130" data-hoffset="0" data-x="center" style="">
+
+                              </div>
+                          </li>
+
+                          </ul>
+                      <div class="tp-bannertimer"></div>
+                  </div>
+              </div>
+          </div><!-- END REVOLUTION SLIDER -->
+
+
+
+
+
+
+
+
+
+
+
         <section class="block">
             <div class="container">
                 <div class="row">
@@ -24,20 +78,7 @@
                             <div class="col-md-8 column">
                                 <div class="single-post-sec">
                                     <div class="blog-post vehicul-post">
-                                        <div class="vehicul-gallery"> 
-                                            <div class="light-slide-item">  
-                                                <div class="favorite-and-print"> 
-                                                    <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-                                                    @foreach($model->images as $image)
-                                                    <h1>hello</h1>
-                                                    <li data-thumb="{{ $image->image_url }}" > 
-                                                            <img src="{{ $image->image_url }}"  alt="KwitaraCars">
-                                                    </li>
-                                                    @endforeach            
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div> 
+                                
 
                                         <h1>Price : {{$model->price}} $</h1>
 
